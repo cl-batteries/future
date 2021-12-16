@@ -1,10 +1,5 @@
-(defpackage :cl-batteries/future-asd
-  (:use :cl :asdf))
-
-(in-package :cl-batteries/future-asd)
-
-(defsystem :cl-batteries/future
-  :name "cl-batteries/future"
+(boost:defsystem :boost-future
+  :name "boost-future"
   :version "1.0"
   :author "Jeffrey Massung"
   :license "Apache 2.0"

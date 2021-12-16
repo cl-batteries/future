@@ -18,7 +18,7 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/future
+(defpackage :boost-future
   (:use :cl :sb-thread)
   (:export
    ;; promises
@@ -36,7 +36,7 @@
    #:future-promise
    #:future-realized-p))
 
-(in-package :cl-batteries/future)
+(in-package :boost-future)
 
 ;;; ----------------------------------------------------
 
